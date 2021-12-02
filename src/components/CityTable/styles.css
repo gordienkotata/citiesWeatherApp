@@ -1,0 +1,28 @@
+.container {
+    display: grid;
+    grid-template-columns: 50% auto;
+    align-items: flex-end;
+    gap: 50px;
+    width: 100%;
+}
+
+.header, .row, .error {
+    display: grid;
+    grid-template-columns: 300px repeat(2, 1fr) 90px;
+    gap: 10px;
+    border-bottom: 1px solid #333;
+    height: 40px;
+    align-items: center;
+}
+
+.header {
+    font-weight: 500;
+    padding: 10px 0;
+}
+.error {
+    display: grid;
+    grid-template-columns: 300px auto 90px;
+}
+.pointer {
+    cursor: pointer;
+}

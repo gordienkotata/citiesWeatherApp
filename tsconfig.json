@@ -1,0 +1,46 @@
+{
+  "compilerOptions": {
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strictNullChecks": true,
+    "outDir": "./build/",
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "module": "es6",
+    "target": "es6",
+    "jsx": "react",
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "paths": {
+      "appComponents/*": [
+        "src/components/*"
+      ],
+      "appDucks/*": [
+        "src/ducks/*"
+      ],
+      "appLogics/*": [
+        "src/logics/*"
+      ],
+      "appTypes/*": [
+        "src/types/*"
+      ],
+      
+    },
+    "lib": [
+      "dom",
+      "es6",
+      "dom.iterable",
+      "scripthost",
+      "esnext.array",
+      "es2020.promise",
+      "es2019.Object"
+    ]
+  },
+  "exclude": [
+    "node_modules/@types/react-redux/",
+    "node_modules/**/*",
+    "**/*.spec.ts"
+  ]
+}

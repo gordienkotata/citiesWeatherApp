@@ -1,0 +1,7 @@
+.container {
+    display: grid;
+    grid-template-columns: 50% auto;
+    align-items: flex-end;
+    gap: 50px;
+    width: 100%;
+}
